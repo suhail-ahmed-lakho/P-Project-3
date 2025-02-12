@@ -3,7 +3,8 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  images: { 
+  images: {
+    domains: ['images.unsplash.com'],
     remotePatterns: [
       {
         protocol: 'https',
@@ -11,6 +12,8 @@ const nextConfig = {
       },
     ],
   },
+  // Add transpilePackages to handle lucide-react
+  transpilePackages: ['lucide-react'],
 };
 
 module.exports = nextConfig;
