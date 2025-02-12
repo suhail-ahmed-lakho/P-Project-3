@@ -21,7 +21,8 @@ import {
   Bell,
   Key,
   Globe,
-  Briefcase
+  Briefcase,
+  Users
 } from "lucide-react"
 
 const achievements = [
